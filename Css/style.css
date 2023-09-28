@@ -56,6 +56,10 @@
     margin: 150px 70px;
 }
 
+.sec_1_col {
+    padding-left: 40px;
+}
+
 .sec_1_content_box {
     display: flex;
     justify-content: center;
@@ -81,9 +85,11 @@
     line-height: 30px;
     padding-top: 30px;
 }
-.sec_1_btn{
+
+.sec_1_btn {
     padding-top: 50px;
 }
+
 .sec_1_btn button {
     padding: 8px 50px;
 }
@@ -110,4 +116,8 @@
     border-radius: 2px;
     border: 2px solid #091133;
     color: #091133;
+}
+.sec_1_img_box img{
+    width: 628px;
+    height: 573px;
 }
