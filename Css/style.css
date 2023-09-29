@@ -196,3 +196,260 @@
     height: 700px;
     padding: 25px;
 }
+
+/* Section_3 */
+.section_3 {
+    margin: 150px 70px;
+}
+
+.sec_3_content_box {
+    /* display: flex;
+    justify-content: center; */
+    padding: 30px;
+}
+
+.sec_3_img img {
+    width: 717px;
+    height: 483px;
+}
+
+.sec_3_text {
+    padding: 110px 50px;
+}
+
+.sec_3_text h1 {
+    color: #091133;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.sec_3_text p {
+    color: #6F7CB2;
+    padding-top: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Section_4 */
+.section_4 {
+    margin: 150px 70px;
+}
+
+.sec_4_content_box {
+    /* display: flex;
+    justify-content: center; */
+    padding: 30px;
+}
+
+.sec_4_img img {
+    width: 717px;
+    height: 483px;
+}
+
+.sec_4_text {
+    padding: 110px 50px;
+}
+
+.sec_4_text h1 {
+    color: #091133;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.sec_4_text p {
+    color: #6F7CB2;
+    padding-top: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Section_5 */
+.section_5 {
+    margin: 150px 70px;
+}
+
+.sec_5_content_box {
+    /* display: flex;
+    justify-content: center; */
+    padding: 30px;
+}
+
+.sec_5_img img {
+    width: 717px;
+    height: 483px;
+}
+
+.sec_5_text {
+    padding: 110px 50px;
+}
+
+.sec_5_text h1 {
+    color: #091133;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.sec_5_text p {
+    color: #6F7CB2;
+    padding-top: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sec_5_btn {
+    padding-top: 50px;
+}
+
+.sec_5_btn button {
+    padding: 8px 50px;
+}
+
+.sec_5_btn .btn_1 {
+    color: #FFF;
+    background-color: rgba(17, 27, 71, 1);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* Section_6 */
+.section_6 {
+    background: rgba(231, 236, 255, 1);
+    opacity: 0.5;
+    padding: 140px 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec_6_text h1 {
+    color: #091133;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.sec_6_text p {
+    padding-top: 10px;
+    color: #6F7CB2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sec_6_span {
+    padding-top: 20px;
+}
+
+.sec_6_span span {
+    color: #222F65;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 1px;
+}
+
+.sec_6_span p {
+    color: #37447E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sec_6_btn {
+    padding-top: 50px;
+}
+
+.sec_6_text .sec_6_btn p {
+    color: #5D6970;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sec_6_btn button {
+    padding: 8px 50px;
+}
+
+.sec_6_btn .btn_1 {
+    color: #FFF;
+    background-color: rgba(17, 27, 71, 1);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+/* Footer */
+.footer{
+    background: #E7ECFF;
+}
+.footer_content {
+    padding: 15px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.ft_nav{
+    padding: 15px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.ft_nav_menu ul{
+    display: flex;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.ft_nav_menu ul li {
+    list-style: none;
+    padding: 5px 25px;
+}
+
+.ft_nav_menu ul li a {
+    padding: 5px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: #505F98;
+}
