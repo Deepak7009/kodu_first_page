@@ -64,4 +64,79 @@
         width: 628px;
         height: 573px;
     }
+
+    .sec_2_text h1,
+    .sec_3_text h1,
+    .sec_4_text h1,
+    .sec_5_text h1,
+    .sec_5_text h1 {
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .sec_2_text p,
+    .sec_3_text p,
+    .sec_4_text p,
+    .sec_5_text p,
+    .sec_6_text p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .sec_3_text,
+    .sec_4_text,
+    .sec_5_text {
+        padding: 85px 35px;
+    }
+
+    .sec_2_icon img {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+
+    .sec_2_col_text h1 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .sec_2_col_text p {
+        font-size: 12px;
+    }
+
+    .sec_2_img img {
+        width: 567px;
+        height: 561px;
+        flex-shrink: 0;
+    }
+
+    .sec_3_img img {
+        width: 614px;
+        height: 399px;
+        flex-shrink: 0;
+    }
+
+    .sec_4_img img {
+        width: 632px;
+        height: 468px;
+        flex-shrink: 0;
+    }
+
+    .sec_5_img img {
+        width: 562px;
+        height: 422px;
+        flex-shrink: 0;
+    }
+
+    .sec_5_btn {
+        padding-top: 20px;
+    }
+
+    .sec_5_btn button {
+        padding: 5px 40px;
+    }
+
+    .sec_5_btn .btn_1 {
+        font-size: 14px;
+    }
 }
