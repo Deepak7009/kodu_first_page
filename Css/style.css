@@ -6,6 +6,9 @@
 .navbar {
     padding: 10px 80px;
 }
+.nav_menu{
+    margin-left: -40px;
+}
 
 .nav_menu ul {
     display: flex;
@@ -71,7 +74,7 @@
     font-family: Roboto;
     font-size: 60px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 66px;
     letter-spacing: 1px;
 }
@@ -141,7 +144,7 @@
 .sec_2_text h1 {
     color: #091133;
     font-family: Roboto;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
@@ -151,7 +154,7 @@
     color: #6F7CB2;
     padding-top: 20px;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -188,7 +191,7 @@
 }
 
 .sec_2_col {
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 .sec_2_img img {
@@ -220,7 +223,7 @@
 .sec_3_text h1 {
     color: #091133;
     font-family: Roboto;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
@@ -230,7 +233,7 @@
     color: #6F7CB2;
     padding-top: 20px;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -259,7 +262,7 @@
 .sec_4_text h1 {
     color: #091133;
     font-family: Roboto;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
@@ -269,7 +272,7 @@
     color: #6F7CB2;
     padding-top: 20px;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -298,7 +301,7 @@
 .sec_5_text h1 {
     color: #091133;
     font-family: Roboto;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 600;
     line-height: 48px;
@@ -308,7 +311,7 @@
     color: #6F7CB2;
     padding-top: 20px;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -335,9 +338,10 @@
 
 /* Section_6 */
 .section_6 {
-    background: rgba(231, 236, 255, 1);
-    opacity: 0.5;
-    padding: 140px 70px;
+    background-image: url("../Images/Rectangle.png");
+    /* opacity: 0.5; */
+    background-size: cover;
+    padding: 200px 70px;
     display: flex;
     justify-content: center;
     text-align: center;

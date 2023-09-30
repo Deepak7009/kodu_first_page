@@ -1,0 +1,67 @@
+@media screen and (max-width:1600px) {
+
+    .navbar h1 {
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    .sec_1_text h1,
+    .sec_2_text h1,
+    .sec_3_text h1,
+    .sec__4_text h1,
+    .sec_5_text h1 {
+        font-size: 57px;
+    }
+
+    .sec_1_text p,
+    .sec_2_text p,
+    .sec_3_text p,
+    .sec_4_text p,
+    .sec_5_text p,
+    .sec_6_text p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .navbar {
+        padding: 10px 150px;
+    }
+
+    .nav_menu ul li a {
+        font-size: 14px;
+    }
+
+    .navbar h1 {
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .nav_btn button {
+        font-size: 12px;
+        padding: 5px 60px 5px 60px;
+    }
+
+    .sec_1_text h1 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .sec_1_text p {
+        font-size: 18px;
+    }
+
+    .sec_1_btn button {
+        padding: 5px 40px;
+    }
+
+    .sec_1_btn .btn_1,
+    .sec_1_btn .btn_2 {
+        font-size: 16px;
+    }
+
+    .sec_1_img_box img {
+        width: 628px;
+        height: 573px;
+    }
+}
