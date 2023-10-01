@@ -34,7 +34,7 @@
 
     .navbar h1 {
         font-size: 26px;
-        font-weight: 900;
+        /* font-weight: 900; */
     }
 
     .nav_btn button {
@@ -44,7 +44,7 @@
 
     .sec_1_text h1 {
         font-size: 50px;
-        font-weight: 500;
+        /* font-weight: 500; */
     }
 
     .sec_1_text p {
@@ -69,18 +69,20 @@
     .sec_3_text h1,
     .sec_4_text h1,
     .sec_5_text h1,
-    .sec_5_text h1 {
+    .sec_5_text h1,
+    .sec_6_text h1 {
         font-size: 36px;
-        font-weight: 500;
+        /* font-weight: 500; */
     }
 
     .sec_2_text p,
     .sec_3_text p,
     .sec_4_text p,
     .sec_5_text p,
-    .sec_6_text p {
+    .sec_6_text p,
+    .sec_6_span p {
         font-size: 16px;
-        font-weight: 400;
+        /* font-weight: 400; */
     }
 
     .sec_3_text,
@@ -97,7 +99,7 @@
 
     .sec_2_col_text h1 {
         font-size: 16px;
-        font-weight: 500;
+        /* font-weight: 500; */
     }
 
     .sec_2_col_text p {
@@ -132,11 +134,336 @@
         padding-top: 20px;
     }
 
-    .sec_5_btn button {
+    .sec_5_btn button,
+    .sec_6_btn button {
         padding: 5px 40px;
     }
 
-    .sec_5_btn .btn_1 {
+    .sec_5_btn .btn_1,
+    .sec_6_btn .btn_1 {
         font-size: 14px;
+    }
+
+    .sec_6_btn {
+        padding-top: 30px;
+    }
+
+    .sec_6_span span {
+        font-size: 50px;
+        /* font-weight: 500; */
+    }
+
+    .sec_6_btn p {
+        font-size: 14px;
+    }
+
+    .ft_btn button {
+        padding: 5px 30px;
+    }
+
+    .ft_btn .btn_1 {
+        font-size: 12px;
+    }
+
+    .ft_nav_menu ul li a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1386px) {
+    .sec_1_col {
+        padding-left: 25px;
+    }
+
+    .sec_1_img_box img {
+        width: 600px;
+        height: 550px;
+    }
+
+    .sec_3_text,
+    .sec_4_text,
+    .sec_5_text {
+        padding: 85px 22px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .sec_1_text h1 {
+        font-size: 48px;
+    }
+
+    .sec_1_text p {
+        font-size: 17px;
+    }
+
+    .sec_1_img_box img {
+        width: 580px;
+        height: 520px;
+    }
+
+    .sec_2_text p,
+    .sec_3_text p,
+    .sec_4_text p,
+    .sec_5_text p,
+    .sec_6_text p,
+    .sec_6_span p {
+        font-size: 15px;
+    }
+
+    .sec_2_col_text p {
+        font-size: 12px;
+    }
+
+    .sec_2_text p,
+    .sec_3_text p,
+    .sec_4_text p,
+    .sec_5_text p,
+    .sec_6_text p,
+    .sec_6_span p {
+        font-size: 14px;
+    }
+
+    .section_5 {
+        margin-bottom: 30px;
+    }
+
+    .section_6 {
+        padding: 170px 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        padding: 10px 50px;
+    }
+
+    .nav_menu ul li {
+        padding: 5px 20px;
+    }
+
+    .section_2,
+    .section_3,
+    .section_4,
+    .section_5 {
+        margin: 120px 70px;
+    }
+
+    .sec_1_col {
+        padding-left: 14px;
+    }
+
+    .sec_1_text h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .sec_1_text p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .sec_1_btn .btn_1,
+    .sec_1_btn .btn_2 {
+        font-size: 14px;
+    }
+
+    .sec_1_img_box img {
+        width: 100%;
+        height: 470px;
+    }
+
+    .sec_2_text h1,
+    .sec_3_text h1,
+    .sec_4_text h1,
+    .sec_5_text h1,
+    .sec_5_text h1,
+    .sec_6_text h1 {
+        font-size: 30px;
+    }
+
+    .sec_2_text p,
+    .sec_3_text p,
+    .sec_4_text p,
+    .sec_5_text p,
+    .sec_6_text p,
+    .sec_6_span p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .sec_2_icon {
+        padding-top: 29px;
+    }
+
+    .sec_2_col_text h2 {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .sec_2_col_text p {
+        font-size: 9px;
+        line-height: 14px;
+        padding-top: 9px;
+    }
+
+    .sec_2_img img {
+        width: 100%;
+        height: 527px;
+    }
+
+    .sec_3_img img {
+        width: 100%;
+        height: 372px;
+    }
+
+    .sec_3_text,
+    .sec_4_text,
+    .sec_5_text {
+        padding: 118px 22px;
+    }
+
+    .sec_2_text h1,
+    .sec_3_text h1,
+    .sec_4_text h1,
+    .sec_5_text h1,
+    .sec_5_text h1,
+    .sec_6_text h1 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    .sec_2_text p,
+    .sec_3_text p,
+    .sec_4_text p,
+    .sec_5_text p,
+    .sec_6_text p,
+    .sec_6_span p {
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+    .sec_4_img img {
+        width: 100%;
+        height: 410px;
+    }
+
+    .sec_5_img img {
+        width: 100%;
+        height: 410px;
+        flex-shrink: 0;
+    }
+
+    .sec_5_btn .btn_1,
+    .sec_6_btn .btn_1 {
+        font-size: 12px;
+    }
+
+    .section_6 {
+        padding: 117px 70px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mob_responsive {
+        width: 100%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mob_nav_h1 {
+        display: block;
+    }
+
+    .mob_nav_h1 h1 {
+        width: 25%;
+        padding: 10px;
+    }
+
+    .mobile_nav {
+        display: none;
+    }
+
+    .bar_btn {
+        display: block;
+    }
+
+    .bar_btn .fa {
+        float: right;
+        font-size: 40px;
+    }
+
+    .mob_navbar {
+        display: block;
+        background: rgb(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 12px 50px 0px 50px;
+        text-align: center;
+    }
+
+    .mob_menu ul,
+    li {
+        display: block;
+        line-height: 60px;
+    }
+
+    .mob_menu ul {
+        padding: 0;
+    }
+
+    .mob_menu .nav_btn {
+        margin-left: 0;
+    }
+
+    .section_1 {
+        margin: 55px 70px;
+    }
+
+    .sec_1_col {
+        padding-left: 32px;
+    }
+
+    .sec_1_img_box {
+        padding-top: 75px;
+    }
+
+    .section_2,
+    .section_3,
+    .section_4,
+    .section_5 {
+        margin: 82px 70px;
+    }
+
+    .sec_3_text,
+    .sec_4_text,
+    .sec_5_text {
+        padding: 60px 22px;
+    }
+
+    .sec_2_text p,
+    .sec_3_text p,
+    .sec_4_text p,
+    .sec_5_text p,
+    .sec_6_text p,
+    .sec_6_span p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+    .section_3,
+    .section_4,
+    .section_5 {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        margin-top: -50px;
+    }
+
+    .footer_content {
+        padding: 35px 45px;
     }
 }
